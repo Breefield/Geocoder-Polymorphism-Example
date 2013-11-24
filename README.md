@@ -1,4 +1,4 @@
 Geocoder-Polymorphism-Example
 =============================
 
-How to abstract away a Location model with Geocoder.
+Code from my blog post: http://www.breefield.com/essays/polymorphic-geocoder
