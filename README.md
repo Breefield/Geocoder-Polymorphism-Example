@@ -13,7 +13,7 @@ Location.near('San Francisco', 50).filter_by(:event).where('events.price <= ?', 
 ```
 
 Know that ```Location``` has a polymorphic relationship with both ````Event``` and ```Venue```.
-```
+```ruby
 class Location < ActiveRecord::Base
   belongs_to :located, :polymorphic => true
 end
